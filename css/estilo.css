@@ -1,0 +1,175 @@
+a {text-decoration: none;}
+/*Cabeçalho*/
+.cabecalho {
+	width: 100%;
+	float: left;
+	padding: 3% 4%;
+}
+.logo {
+	width: 100px;
+	height: 100px;
+	float: left;
+	background: url(../img/logot.png) center /100px no-repeat;
+	font-size: 0;
+}
+.btn-logi{
+	margin-top: 15px;
+	width: 60px;
+	height: 60px;
+	float: right;
+	text-align: center;
+	border-radius: 56px;
+	cursor: pointer;
+	margin-left: 20px;
+	background: linear-gradient(to right,#00cc00, #0033cc);
+}
+.btn-menu {
+	margin-top: 15px;
+	width: 60px;
+	height: 60px;
+	float: right;
+	text-align: center;
+	border-radius: 56px;
+	cursor: pointer;
+	background: linear-gradient(to right,#003366, #cc00cc);
+}
+/*MENU*/
+.menu {
+	display: none;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: rgba(0,0,0,0.9);
+	top: 0;
+	left: 0;
+}
+.btn-close {
+	font-size: 1.5em;
+	color: #fff;
+	float: right;
+	cursor: pointer;
+	margin: 2% 3% 0 0;
+}
+.menu ul {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.menu li {
+	padding: 1.5%;
+}
+.menu li a {
+	font-size: 2em;
+	color: #fff;
+	padding: 1.5% 3%;
+}
+.menu li a:hover {
+	border: 1px solid orange;
+}
+/*tela inicial*/
+.sec1 {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/ETE2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  border: 3px solid #f1f1f1;
+  border-radius: 15px 50px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 430px;
+   padding: 25px;
+  font-size: 30px;
+  text-align: center;
+  font-family: arial;
+}
+
+.bg-text2 {
+     font-size: 15px;
+     color: #1E90FF;
+     font-family: arial;
+}
+/*boasvindas*/
+.content1 {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 30px;
+    background: gray;
+}
+.p1{
+	margin-top: 10px;
+	font-size: 20px;
+}
+.lal {
+	width: 225px;
+	margin-left: 25%;
+	margin-top: 15px;
+	border: 3px solid white;
+	border-radius: 150px;
+	background: white;
+}
+.W {
+	margin-top: 15px;
+	text-align: center;
+    font-size: 50px;
+    color: blue;
+}
+.btn-sobre {
+	border: 2px solid black;
+	color: black;
+	text-transform: uppercase;
+	padding: 9px;
+	width: 250px;
+	font-size: 16px;
+	margin-left: 25%;
+	margin-bottom: 15px;
+}
+/*Cursos*/
+.content2 {
+	margin-top: 30px;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(to left, #33ccff 22%, #ff99cc 79%);
+}
+.n1 {
+	font-size: 50px;
+	color: blue;
+}
+.itens {
+	width: 90px;
+	height: 90px;
+	border: 2px solid skyblue;
+	border-radius: 120px;
+	background: skyblue;
+	margin-left: 40%;
+	line-height: 85px;
+	font-size: 50px;
+	margin-top: 15px;
+}
+.itensD {
+    width: 150px;
+	height: 150px;
+	border: 2px solid skyblue;
+	border-radius: 120px;
+	background: skyblue;
+	margin-left: 34%;
+	line-height: 145px;
+	font-size: 75px;
+	margin-top: 15px;
+}
+.n {
+	font-size: 30px; 
+	color: #4682B4;
+}
+
