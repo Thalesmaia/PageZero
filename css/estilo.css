@@ -143,6 +143,7 @@ a {text-decoration: none;}
     background: linear-gradient(to left, #33ccff 22%, #ff99cc 79%);
 }
 .n1 {
+	font-family: 'Bree Serif', serif;
 	font-size: 50px;
 	color: blue;
 }
@@ -169,6 +170,7 @@ a {text-decoration: none;}
 	margin-top: 15px;
 }
 .n {
+	font-family: 'Bree Serif', serif;
 	font-size: 30px; 
 	color: #4682B4;
 }
