@@ -1,5 +1,9 @@
 
-$("menu").click(function(){
-	$("ul").slideToggle();
-	$("menu ul").css("display", "none"):
+$(".btn-menu").click(function(){
+	$(".menu").show();
+});
+
+
+$(".btn-close").click(function(){
+	$(".menu").hide();
 });
